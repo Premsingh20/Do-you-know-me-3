@@ -1,10 +1,8 @@
 var readlineSync = require("readline-sync");
 
-console.log("--> Always use first letter capital in answer's");
-
 var userName = readlineSync.question("What is your name? ");
 
-console.log("Welcome " + userName + " to are you a True Marvel fan");
+console.log("Welcome " + userName + " to DO YOU KNOW Prem");
 
 var score =0;
 //Play function
@@ -30,20 +28,20 @@ function play(question, answer){
 
 
 var questions = [{
-  question: "What is my real name of IRON-MAN? ",
-  answer: "Tony Stark"
+  question: "What is my real name? ",
+  answer: "prem"
 }, {
-  question: "Who is most powerfull Avenger? ",
-  answer: "Thor"
+  question: "What is my fav superhero? ",
+  answer: "ironman"
 }, {
-  question: "Who is smartest Avenger? ",
-  answer: "Vision"
+  question: "What I am learning? ",
+  answer: "web development"
 }, {
-  question: "Was Captain worthy? ",
-  answer: "Yes"
+  question: "Who is my fav hero? ",
+  answer: "hritik"
 }, {
-  question: "Who is the youngest Avenger? ",
-  answer: "Spiderman"
+  question: "Where do I live? ",
+  answer: "burnpur"
 }];
 
  for(var i=0; i<questions.length; i++){
